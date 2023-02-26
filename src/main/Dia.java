@@ -17,7 +17,7 @@ public class Dia implements java.io.Serializable {
 	private int humedad;
 	private int viento;
 	private String direccion;
-	private Set horas = new HashSet(0);
+	private Set<Hora> horas = new HashSet<Hora>(0);
 
 	public Dia() {
 	}
@@ -106,6 +106,12 @@ public class Dia implements java.io.Serializable {
 
 	public void setHoras(Set horas) {
 		this.horas = horas;
+	}
+
+	@Override
+	public String toString() {
+		return "Dia [dia=" + dia + ", tempmax=" + tempmax + ", tempmin=" + tempmin + ", descripcion=" + descripcion
+				+ ", humedad=" + humedad + ", viento=" + viento + ", direccion=" + direccion + ", horas=" + horas + "]";
 	}
 
 }
