@@ -1,7 +1,11 @@
 package main;
 
 import java.net.URL;
+import java.sql.Connection;
 import java.sql.Date;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+import java.sql.Statement;
 import java.sql.Time;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -24,6 +28,28 @@ public class Main {
 
 		final String URL = "https://api.tutiempo.net/xml/?lan=es&apid=zwDX4azaz4X4Xqs&lid=3768";
 		ArrayList<Dia> dias = new ArrayList<>();
+
+		Connection connection;
+		try {
+			connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/tiempo", "root", "root");
+			Statement statement = connection.createStatement();
+			statement.executeUpdate("DROP TABLE IF EXISTS HORA, DIA");
+			statement.execute("CREATE TABLE IF NOT EXISTS TIEMPO.DIA (\r\n" + "DIA DATE NOT NULL,\r\n"
+					+ "TEMPMAX INT NOT NULL,\r\n" + "TEMPMIN INT NOT NULL,\r\n"
+					+ "DESCRIPCION VARCHAR(100) NOT NULL,\r\n" + "HUMEDAD INT NOT NULL,\r\n"
+					+ "VIENTO INT NOT NULL,\r\n" + "DIRECCION VARCHAR(100) NOT NULL,\r\n" + "PRIMARY KEY(DIA)\r\n"
+					+ ")");
+
+			statement.execute("CREATE TABLE IF NOT EXISTS TIEMPO.HORA (\r\n" + "HORA TIME NOT NULL,\r\n"
+					+ "DIA DATE NOT NULL,\r\n" + "TEMP INT NOT NULL,\r\n" + "DESCRIPCION VARCHAR(100) NOT NULL,\r\n"
+					+ "PRESION INT NOT NULL,\r\n" + "HUMEDAD INT NOT NULL,\r\n" + "VIENTO INT NOT NULL,\r\n"
+					+ "DIRECCION VARCHAR(100) NOT NULL,\r\n" + "PRIMARY KEY(HORA,DIA)\r\n" + ")");
+
+			statement.execute("ALTER TABLE TIEMPO.HORA ADD CONSTRAINT FOREIGN KEY(DIA) REFERENCES\r\n"
+					+ "TIEMPO.DIA(DIA) ON UPDATE CASCADE ON DELETE CASCADE");
+		} catch (SQLException e1) {
+			e1.printStackTrace();
+		}
 
 		SimpleDateFormat dateFormatter1 = new SimpleDateFormat("yyyy-mm-dd");
 		SimpleDateFormat dateFormatter2 = new SimpleDateFormat("dd/mm/yyyy");
@@ -91,10 +117,6 @@ public class Main {
 
 						horas.add(hourSchema);
 
-						session.beginTransaction();
-						session.persist(hourSchema);
-						session.getTransaction().commit();
-
 						hourDayIndex++;
 					}
 				}
@@ -106,6 +128,12 @@ public class Main {
 				session.beginTransaction();
 				session.save(day);
 				session.getTransaction().commit();
+
+				for (Hora hora : horas) {
+					session.beginTransaction();
+					session.persist(hora);
+					session.getTransaction().commit();
+				}
 
 			}
 

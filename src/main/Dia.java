@@ -1,5 +1,5 @@
 package main;
-// Generated Feb 26, 2023, 9:41:04 PM by Hibernate Tools 6.1.5.Final
+// Generated Feb 27, 2023, 12:38:42 AM by Hibernate Tools 6.1.5.Final
 
 import java.sql.Date;
 import java.util.HashSet;
@@ -17,7 +17,7 @@ public class Dia implements java.io.Serializable {
 	private int humedad;
 	private int viento;
 	private String direccion;
-	private Set<Hora> horas = new HashSet<Hora>(0);
+	private Set horas = new HashSet(0);
 
 	public Dia() {
 	}
@@ -106,12 +106,6 @@ public class Dia implements java.io.Serializable {
 
 	public void setHoras(Set horas) {
 		this.horas = horas;
-	}
-
-	@Override
-	public String toString() {
-		return "Dia [dia=" + dia + ", tempmax=" + tempmax + ", tempmin=" + tempmin + ", descripcion=" + descripcion
-				+ ", humedad=" + humedad + ", viento=" + viento + ", direccion=" + direccion + ", horas=" + horas + "]";
 	}
 
 }

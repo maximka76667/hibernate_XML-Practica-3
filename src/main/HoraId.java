@@ -1,5 +1,5 @@
 package main;
-// Generated Feb 26, 2023, 9:41:04 PM by Hibernate Tools 6.1.5.Final
+// Generated Feb 27, 2023, 12:38:42 AM by Hibernate Tools 6.1.5.Final
 
 import java.sql.Date;
 import java.sql.Time;
