@@ -17,7 +17,7 @@ public class Dia implements java.io.Serializable {
 	private int humedad;
 	private int viento;
 	private String direccion;
-	private Set horas = new HashSet(0);
+	private Set<Hora> horas = new HashSet<Hora>(0);
 
 	public Dia() {
 	}
@@ -100,11 +100,11 @@ public class Dia implements java.io.Serializable {
 		this.direccion = direccion;
 	}
 
-	public Set getHoras() {
+	public Set<Hora> getHoras() {
 		return this.horas;
 	}
 
-	public void setHoras(Set horas) {
+	public void setHoras(Set<Hora> horas) {
 		this.horas = horas;
 	}
 

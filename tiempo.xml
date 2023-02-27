@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?><tiempo>
+    <dia id="27/02/2023">
+        <tempmax>6</tempmax>
+        <tempmin>-1</tempmin>
+        <descripcion>Cubierto</descripcion>
+        <humedad>42</humedad>
+        <viento>22</viento>
+        <direccion>Noroeste</direccion>
+        <horas>
+            <hora id="1">
+                <dato>11:00</dato>
+                <temp>3</temp>
+                <descripcion>Despejado</descripcion>
+                <presion>1018</presion>
+                <humedad>36</humedad>
+                <viento>16</viento>
+                <direccion>Noroeste</direccion>
+            </hora>
+            <hora id="2">
+                <dato>22:00</dato>
+                <temp>1</temp>
+                <descripcion>Despejado</descripcion>
+                <presion>1019</presion>
+                <humedad>52</humedad>
+                <viento>8</viento>
+                <direccion>Nordeste</direccion>
+            </hora>
+            <hora id="3">
+                <dato>18:00</dato>
+                <temp>5</temp>
+                <descripcion>Parcialmente nuboso</descripcion>
+                <presion>1016</presion>
+                <humedad>33</humedad>
+                <viento>22</viento>
+                <direccion>Noroeste</direccion>
+            </hora>
+            <hora id="4">
+                <dato>10:00</dato>
+                <temp>1</temp>
+                <descripcion>Despejado</descripcion>
+                <presion>1018</presion>
+                <humedad>42</humedad>
+                <viento>12</viento>
+                <direccion>Noroeste</direccion>
+            </hora>
+            <hora id="5">
+                <dato>15:00</dato>
+                <temp>6</temp>
+                <descripcion>Cubierto</descripcion>
+                <presion>1015</presion>
+                <humedad>27</humedad>
+                <viento>21</viento>
+                <direccion>Noroeste</direccion>
+            </hora>
+            <hora id="6">
+                <dato>20:00</dato>
+                <temp>3</temp>
+                <descripcion>Despejado</descripcion>
+                <presion>1018</presion>
+                <humedad>41</humedad>
+                <viento>14</viento>
+                <direccion>Norte</direccion>
+            </hora>
+            <hora id="7">
+                <dato>12:00</dato>
+                <temp>5</temp>
+                <descripcion>Muy nuboso</descripcion>
+                <presion>1017</presion>
+                <humedad>29</humedad>
+                <viento>16</viento>
+                <direccion>Norte</direccion>
+            </hora>
+            <hora id="8">
+                <dato>14:00</dato>
+                <temp>6</temp>
+                <descripcion>Cubierto</descripcion>
+                <presion>1016</presion>
+                <humedad>27</humedad>
+                <viento>19</viento>
+                <direccion>Noroeste</direccion>
+            </hora>
+            <hora id="9">
+                <dato>23:00</dato>
+                <temp>1</temp>
+                <descripcion>Nubes dispersas</descripcion>
+                <presion>1020</presion>
+                <humedad>54</humedad>
+                <viento>6</viento>
+                <direccion>Nordeste</direccion>
+            </hora>
+            <hora id="10">
+                <dato>16:00</dato>
+                <temp>6</temp>
+                <descripcion>Muy nuboso</descripcion>
+                <presion>1015</presion>
+                <humedad>29</humedad>
+                <viento>21</viento>
+                <direccion>Noroeste</direccion>
+            </hora>
+            <hora id="11">
+                <dato>21:00</dato>
+                <temp>1</temp>
+                <descripcion>Despejado</descripcion>
+                <presion>1019</presion>
+                <humedad>48</humedad>
+                <viento>12</viento>
+                <direccion>Norte</direccion>
+            </hora>
+            <hora id="12">
+                <dato>17:00</dato>
+                <temp>6</temp>
+                <descripcion>Muy nuboso</descripcion>
+                <presion>1016</presion>
+                <humedad>29</humedad>
+                <viento>22</viento>
+                <direccion>Noroeste</direccion>
+            </hora>
+            <hora id="13">
+                <dato>19:00</dato>
+                <temp>4</temp>
+                <descripcion>Despejado</descripcion>
+                <presion>1017</presion>
+                <humedad>38</humedad>
+                <viento>18</viento>
+                <direccion>Norte</direccion>
+            </hora>
+            <hora id="14">
+                <dato>13:00</dato>
+                <temp>5</temp>
+                <descripcion>Muy nuboso</descripcion>
+                <presion>1017</presion>
+                <humedad>28</humedad>
+                <viento>17</viento>
+                <direccion>Noroeste</direccion>
+            </hora>
+        </horas>
+    </dia>
+    <dia id="28/02/2023">
+        <tempmax>8</tempmax>
+        <tempmin>-3</tempmin>
+        <descripcion>Muy nuboso</descripcion>
+        <humedad>52</humedad>
+        <viento>16</viento>
+        <direccion>Norte</direccion>
+        <horas>
+            <hora id="15">
+                <dato>01:00</dato>
+                <temp>-1</temp>
+                <descripcion>Despejado</descripcion>
+                <presion>1021</presion>
+                <humedad>61</humedad>
+                <viento>3</viento>
+                <direccion>Noroeste</direccion>
+            </hora>
+            <hora id="16">
+                <dato>00:00</dato>
+                <temp>0</temp>
+                <descripcion>Despejado</descripcion>
+                <presion>1020</presion>
+                <humedad>55</humedad>
+                <viento>5</viento>
+                <direccion>Noroeste</direccion>
+            </hora>
+            <hora id="17">
+                <dato>02:00</dato>
+                <temp>-1</temp>
+                <descripcion>Despejado</descripcion>
+                <presion>1021</presion>
+                <humedad>65</humedad>
+                <viento>4</viento>
+                <direccion>Noroeste</direccion>
+            </hora>
+            <hora id="18">
+                <dato>06:00</dato>
+                <temp>-2</temp>
+                <descripcion>Despejado</descripcion>
+                <presion>1023</presion>
+                <humedad>72</humedad>
+                <viento>1</viento>
+                <direccion>Noroeste</direccion>
+            </hora>
+            <hora id="19">
+                <dato>05:00</dato>
+                <temp>-2</temp>
+                <descripcion>Despejado</descripcion>
+                <presion>1022</presion>
+                <humedad>69</humedad>
+                <viento>1</viento>
+                <direccion>Oeste</direccion>
+            </hora>
+            <hora id="20">
+                <dato>08:00</dato>
+                <temp>-3</temp>
+                <descripcion>Despejado</descripcion>
+                <presion>1023</presion>
+                <humedad>74</humedad>
+                <viento>2</viento>
+                <direccion>Norte</direccion>
+            </hora>
+            <hora id="21">
+                <dato>07:00</dato>
+                <temp>-3</temp>
+                <descripcion>Despejado</descripcion>
+                <presion>1023</presion>
+                <humedad>72</humedad>
+                <viento>3</viento>
+                <direccion>Nordeste</direccion>
+            </hora>
+            <hora id="22">
+                <dato>04:00</dato>
+                <temp>-2</temp>
+                <descripcion>Despejado</descripcion>
+                <presion>1021</presion>
+                <humedad>67</humedad>
+                <viento>2</viento>
+                <direccion>Noroeste</direccion>
+            </hora>
+            <hora id="23">
+                <dato>09:00</dato>
+                <temp>-3</temp>
+                <descripcion>Despejado</descripcion>
+                <presion>1024</presion>
+                <humedad>74</humedad>
+                <viento>1</viento>
+                <direccion>Noroeste</direccion>
+            </hora>
+            <hora id="24">
+                <dato>03:00</dato>
+                <temp>-2</temp>
+                <descripcion>Despejado</descripcion>
+                <presion>1021</presion>
+                <humedad>67</humedad>
+                <viento>3</viento>
+                <direccion>Noroeste</direccion>
+            </hora>
+        </horas>
+    </dia>
+    <dia id="01/03/2023">
+        <tempmax>6</tempmax>
+        <tempmin>-3</tempmin>
+        <descripcion>Parcialmente nuboso</descripcion>
+        <humedad>49</humedad>
+        <viento>12</viento>
+        <direccion>Nordeste</direccion>
+        <horas/>
+    </dia>
+    <dia id="02/03/2023">
+        <tempmax>11</tempmax>
+        <tempmin>-3</tempmin>
+        <descripcion>Despejado</descripcion>
+        <humedad>48</humedad>
+        <viento>7</viento>
+        <direccion>Suroeste</direccion>
+        <horas/>
+    </dia>
+    <dia id="03/03/2023">
+        <tempmax>14</tempmax>
+        <tempmin>0</tempmin>
+        <descripcion>Cubierto</descripcion>
+        <humedad>51</humedad>
+        <viento>9</viento>
+        <direccion>Suroeste</direccion>
+        <horas/>
+    </dia>
+    <dia id="04/03/2023">
+        <tempmax>9</tempmax>
+        <tempmin>-1</tempmin>
+        <descripcion>Cubierto</descripcion>
+        <humedad>45</humedad>
+        <viento>7</viento>
+        <direccion>Nordeste</direccion>
+        <horas/>
+    </dia>
+    <dia id="05/03/2023">
+        <tempmax>10</tempmax>
+        <tempmin>-2</tempmin>
+        <descripcion>Muy nuboso</descripcion>
+        <humedad>59</humedad>
+        <viento>13</viento>
+        <direccion>Suroeste</direccion>
+        <horas/>
+    </dia>
+</tiempo>
